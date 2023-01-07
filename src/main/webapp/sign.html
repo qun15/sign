@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>sign</title>
+</head>
+<style>
+    .shop-title{
+        position: static;
+        margin-left:50px;
+        padding-top: 40px;
+    }
+    .shop_input{
+        position: static;
+        margin-left:200px;
+        margin-top: -20px;
+    }
+    .shop_content{
+        border-bottom: 1px solid rgb(180, 172, 172);
+        height: 100px;
+    }
+    .yinhang{
+        border-bottom: 1px solid rgb(180, 172, 172);width: 80%;
+        padding-left: 27%;
+        padding-top: 25px;
+        height: 70px;
+    }
+</style>
+
+<img src="qianyue.jpg" style="width: 100%;margin-bottom: 5px;">
+<div class="shop_content">
+    <div class="shop-title">
+        <text>姓名</text>
+    </div>
+    <div class="shop_input">
+        <input value="" type="text" style="border: none;;height: 250%" placeholder="请填写姓名" />
+    </div>
+</div>
+
+<div class="shop_content">
+    <div class="shop-title">
+        <text>身份证号</text>
+    </div>
+    <div class="shop_input">
+        <input value="" type="text" bind:input="onName" style="border: none;height: 250%" placeholder="请填写身份证号" />
+    </div>
+</div>
+
+
+
+
+<picker bindchange="change" value="{{index}}" range="{{array}}" >
+    <div>
+        <text style="position: absolute;padding-left: 55px;padding-top: 25px;">户行</text>
+<!--        <div wx:if="{{index}}"  calss='yinhang'>-->
+<!--            {{array[index]}}-->
+<!--        </div>-->
+        <div class="yinhang"  style="font-weight: 500;color: rgb(138, 138, 138);">
+            <select style="border: none;margin-left: -50px" >
+                <option>请选择户行</option>
+                <option>中央银行</option>
+                <option>光大银行</option>
+                <option>平安银行</option>
+            </select>
+        </div>
+<!--        <div class="yinhang" wx:else style="font-weight: 500;color: rgb(138, 138, 138);">请选择银行</div>-->
+    </div>
+</picker>
+<div class="shop_content">
+    <div class="shop-title">
+        <text>卡号</text>
+    </div>
+    <div class="shop_input">
+        <input value="" type="text" style="border: none" placeholder="请填写银行卡号" />
+    </div>
+</div>
+<div class="shop_content">
+    <div class="shop-title">
+        <text>手机号</text>
+    </div>
+    <div class="shop_input">
+        <input value="" style="border: none;height: 250%" type="text" bind:input="onName" placeholder="请填写手机号码" />
+        <input  type="text"  style="border: 2px solid rgb(31, 199, 25);border-radius: 20px;margin-left: 28%;width: 18%;margin-top: -45px;font-size: 13px;text-align: center;color:rgb(31, 199, 25) ;" disabled="true" value="获取验证码"/>
+    </div>
+</div>
+<div class="shop_content">
+    <div class="shop-title">
+        <text>验证码</text>
+    </div>
+    <div class="shop_input">
+        <input value="" style="border: none;height: 250%" type="text" bind:input="onName" placeholder="请填写验证码" />
+    </div>
+</div>
+    <input type="checkbox" style=";width: 28px;height: 28px;margin-left: 21%;position: static;margin-top: 20px"/>
+
+<span style="margin-top: 25px;;position: absolute">
+    已阅读并接受<text style="color: rgb(24, 109, 134);">
+     《缴费项目委托代扣协议》</text>
+</span>
+<button style="background-color: rgb(110, 110, 240);color:white;width: 100%;height: 90px;margin-top: 20px;"
+        onclick="go()">
+    提交并完成签约</button>
+<script type="text/javascript">
+    function go() {
+        window.open("paying.html")
+    }
+</script>
+</body>
+</html>
