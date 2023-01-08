@@ -14,8 +14,8 @@
             <text>27.00</text>
         </div>
     </div>
-    <div style=";margin-left: 80%">
-        <t;">有欠费，请尽快缴费</text>
+    <div style=";margin-left: 80%;color: red">
+        <text>有欠费，请尽快缴费</text>
     </div>
     <div>
         <div style="padding-left: 5%;margin-top: 5%;margin-bottom: 5%">
@@ -52,10 +52,10 @@
     <text style="margin-left: 5%">最近扣款</text>
     <span style="margin-left: 70%;font-size: 23px" onclick="go()">111.55元 ></span>
     <button style="background-color: rgb(110, 110, 240);color:white;font-size: 30px;width: 90%;height: 90px;margin-top: 2%;margin-left: 5%"
-            onclick="go()">
+            onclick="go2()">
         立即缴费</button>
 </div>
-<dialog open style="width: 30%;height: 30%">
+<dialog open style="width: 40%;height: 25%">
     <img src="crazy.png" style="width: 25%;height: 20%;margin-left: 37%">
     <p style="font-size: 18px">温馨提示：尊敬的方先生，您账户*6881下有1笔物业费将于【2023年01月10日17：00点前】扣款，预计金额为3844.14元，以实际扣款为准。
         如您的*6881账户资金不足，请您提前将资金划入该账户，并保持该账户内有足额的扣款资金。如有疑问，请咨询客户经理或95568。 【**物业】</p>
@@ -69,6 +69,9 @@
     })
     function go() {
         window.open("bill.html")
+    }
+    function go2() {
+        window.open("paysuccess.html")
     }
 </script>
 </body>
