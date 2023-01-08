@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db69ceb-c5e5-48af-bafe-4102dfd4c828" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/activepay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activepay.html" afterDir="false" />
-    </list>
+    <list default="true" id="2db69ceb-c5e5-48af-bafe-4102dfd4c828" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,19 +74,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/myweb/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -269,7 +254,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672985659616</updated>
       <workItem from="1672985660994" duration="5912000" />
-      <workItem from="1672991656094" duration="43745000" />
+      <workItem from="1672991656094" duration="44066000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1673093049250</created>
@@ -523,15 +508,27 @@
       <option name="project" value="LOCAL" />
       <updated>1673185371077</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="4.4">
+      <created>1673185553891</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1673185553891</updated>
+    </task>
+    <task id="LOCAL-00038" summary="4.5">
+      <created>1673185748870</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1673185748870</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.9" />
-    <MESSAGE value="2.0" />
     <MESSAGE value="2.1" />
     <MESSAGE value="2.2" />
     <MESSAGE value="2.3" />
@@ -555,6 +552,8 @@
     <MESSAGE value="4.1" />
     <MESSAGE value="4.2" />
     <MESSAGE value="4.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.3" />
+    <MESSAGE value="4.4" />
+    <MESSAGE value="4.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.5" />
   </component>
 </project>
