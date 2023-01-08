@@ -9,7 +9,7 @@
     .shop-title{
         position: static;
         margin-left:50px;
-        padding-top: 40px;
+        padding-top: 5%;
     }
     .shop_input{
         position: static;
@@ -18,23 +18,25 @@
     }
     .shop_content{
         border-bottom: 1px solid rgb(180, 172, 172);
-        height: 100px;
+        padding-bottom: 2%;
+        /*height:100px*/
     }
     .yinhang{
         border-bottom: 1px solid rgb(180, 172, 172);width: 80%;
         padding-left: 27%;
         padding-top: 25px;
-        height: 70px;
+        padding-bottom: 2%;
+        /*height: 10%;*/
     }
 </style>
 
-<img src="qianyue.jpg" style="width: 100%;margin-bottom: 5px;">
-<div class="shop_content">
+<img src="qianyue.jpg" style="width: 100%;margin-bottom: 0px;">
+<div class="shop_content" >
     <div class="shop-title">
         <text>姓名</text>
     </div>
     <div class="shop_input">
-        <input value="" type="text" style="border: none;;height: 250%" placeholder="请填写姓名" />
+        <input value="" type="text" style="border: none;;height: 100%" placeholder="请填写姓名" />
     </div>
 </div>
 
@@ -47,9 +49,6 @@
     </div>
 </div>
 
-
-
-
 <picker bindchange="change" value="{{index}}" range="{{array}}" >
     <div>
         <text style="position: absolute;padding-left: 55px;padding-top: 25px;">户行</text>
@@ -57,7 +56,7 @@
 <!--            {{array[index]}}-->
 <!--        </div>-->
         <div class="yinhang"  style="font-weight: 500;color: rgb(138, 138, 138);">
-            <select style="border: none;margin-left: 32%" >
+            <select style="border: none;margin-left: 30%;font-weight: 100" >
                 <option>请选择户行</option>
                 <option>中央银行</option>
                 <option>光大银行</option>
@@ -80,9 +79,9 @@
         <text>手机号</text>
     </div>
     <div class="shop_input">
-        <input value="" style="border: none;height: 250%" type="text" bind:input="onName" placeholder="请填写手机号码" />
-        <input  type="text"  style="border: 2px solid rgb(31, 199, 25);border-radius: 20px;
-        width: 38%;margin-top: -45px;font-size: 13px;text-align: center;color:rgb(31, 199, 25) ;" disabled="true" value="获取验证码"/>
+        <input value="" style="border: none;" type="text"  placeholder="请填写手机号码" />
+<!--        <input  type="text"  style="border: 2px solid rgb(31, 199, 25);border-radius: 20px;float: right;-->
+<!--        width: 38%;font-size: 13px;text-align: center;color:rgb(31, 199, 25) ;" disabled="true" value="获取验证码">-->
     </div>
 </div>
 <div class="shop_content">
@@ -99,7 +98,7 @@
     已阅读并接受<text style="color: rgb(24, 109, 134);">
      《缴费项目委托代扣协议》</text>
 </span>
-<button style="background-color: rgb(110, 110, 240);color:white;width: 100%;height: 90px;margin-top: 20px;"
+<button style="background-color: rgb(110, 110, 240);color:white;width: 100%;height: 40px;margin-top: 20px;"
         onclick="go()">
     提交并完成签约</button>
 <script type="text/javascript">
