@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db69ceb-c5e5-48af-bafe-4102dfd4c828" name="Default Changelist" comment="">
+    <list default="true" id="2db69ceb-c5e5-48af-bafe-4102dfd4c828" name="Default Changelist" comment="1.8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/activepay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activepay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/paying.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/paying.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bill.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/paysuccess.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +272,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672985659616</updated>
       <workItem from="1672985660994" duration="5912000" />
-      <workItem from="1672991656094" duration="29602000" />
+      <workItem from="1672991656094" duration="31236000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1673093049250</created>
@@ -331,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673157507360</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.7">
+      <created>1673171338972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673171338972</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.8">
+      <created>1673171561833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673171561833</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +358,8 @@
     <MESSAGE value="1.4" />
     <MESSAGE value="1.5" />
     <MESSAGE value="1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
+    <MESSAGE value="1.7" />
+    <MESSAGE value="1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.8" />
   </component>
 </project>
